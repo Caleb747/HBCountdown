@@ -26,7 +26,7 @@ function updateCountdown(targetDateTime) {
   }
   
   // Example: Start the countdown to January 15, 2024, at 12:30 PM
-  updateCountdown("2024-01-16T01:54:00");
+  updateCountdown("2024-01-16T02:54:00");
 
 function fun() {
     document.getElementById("backgroundSong").play()
@@ -40,13 +40,13 @@ function fun() {
     
 }
 
-// function ver() {
-//   let phoneSize = window.innerWidth
-//   if(phoneSize > 360 || phoneSize < 360){
-//     window.location.href = "end.html"
-//   }
-// }
-// ver()
+function ver() {
+  let phoneSize = window.innerWidth
+  if(phoneSize > 360 || phoneSize < 360){
+    window.location.href = "end.html"
+  }
+}
+ver()
 
 
 
