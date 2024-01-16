@@ -26,7 +26,7 @@ function updateCountdown(targetDateTime) {
   }
   
   // Example: Start the countdown to January 15, 2024, at 12:30 PM
-  updateCountdown("2024-01-16T03:00:00");
+  updateCountdown("2024-01-17T08:00:00");
 
 function fun() {
     document.getElementById("backgroundSong").play()
